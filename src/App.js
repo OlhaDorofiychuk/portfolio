@@ -3,6 +3,11 @@ import useMediaQuerry from "./hooks/useMediaQuerry"
 import Navbar from "./Navbar";
 import DotGroup from "./DotGroup";
 import Landing from "./Landing";
+import Footer from "./Footer";
+import MySkills from "./MySkils";
+import Contact from "./Contact";
+import Projects from "./Projects";
+import LineGradient from "./LineGradient";
 import { motion } from "framer-motion";
 
 function App() {
@@ -46,7 +51,39 @@ function App() {
             <Landing setSelectedPage={setSelectedPage} />
           </motion.div>
   </div>
+  <LineGradient />
+      <div className="w-5/6 mx-auto md:h-full ">
+        <motion.div
+          margin="0 0 -200px 0"
+          amount="all"
+          onViewportEnter={() => setSelectedPage("skills")}
+        >
+           <MySkills />
+        </motion.div>
   </div>
-  
-)}
+  <LineGradient />
+      <div className="w-5/6 mx-auto">
+        <motion.div
+          margin="0 0 -200px 0"
+          amount="all"
+          onViewportEnter={() => setSelectedPage("projects")}
+        >
+          <Projects />
+        </motion.div>
+      </div>
+      <LineGradient />
+      <LineGradient />
+      <div className="w-5/6 mx-auto md:h-full">
+        <motion.div
+          margin="0 0 -200px 0"
+          amount="all"
+          onViewportEnter={() => setSelectedPage("contact")}
+        >
+          <Contact />
+        </motion.div>
+      </div>
+      <Footer />
+    </div>
+  );
+}
 export default App;
