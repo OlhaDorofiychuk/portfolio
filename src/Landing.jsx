@@ -48,15 +48,15 @@ const Landing = ({ setSelectedPage }) => {
           <p className="text-6xl font-playfair z-10 text-center md:text-start">
             Olha {""}
             <span
-              className="xs:relative xs:text-deep-blue xs:font-semibold z-20 xs:before:content-brush
-              before:absolute before:-left-[25px] before:-top-[70px] before:z-[-1]"
+              className="xs:relative text-whitexs:text-deep-blue xs:font-semibold z-20 xs:before:content-brush
+              before:absolute before:-left-[95px] before:-top-[70px] before:z-[-1]"
             >
               Dorofiychuk 
             </span>
           </p>
 
           <p className="mt-10 mb-7 text-sm text-center md:text-start">
-            COOL INFORMATION
+            Junior Front End Developer
           </p>
         </motion.div>
 
@@ -85,9 +85,6 @@ const Landing = ({ setSelectedPage }) => {
             onClick={() => setSelectedPage("contact")}
             href="#contact"
           >
-            <div className="bg-deep-blue hover:text-red transition duration-500 w-full h-full flex items-center justify-center px-10 font-playfair">
-              Let's talk.
-            </div>
           </AnchorLink>
         </motion.div>
 
