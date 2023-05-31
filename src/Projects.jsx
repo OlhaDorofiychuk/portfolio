@@ -78,7 +78,7 @@ const projectVariant = {
         
     
           </div>
-          <img src={`./assets/second.png`} alt='second' />
+          <img className="ml-5" src={`./assets/second.png`} alt='second' />
         </motion.div>
         
         <div
