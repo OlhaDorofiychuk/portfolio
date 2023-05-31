@@ -10,7 +10,7 @@ const SocialMediaIcons = () => {
           <img alt="linkedin-link" src="../assets/linkedin.png" />
         </a>
         <a
-          className="hover:opacity-50 transition duration-500"
+          className="hover:saturation-100 transition duration-500"
           href="https://github.com/OlhaDorofiychuk"
           target="_blank"
           rel="noreferrer"

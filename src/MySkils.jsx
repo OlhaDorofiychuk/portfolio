@@ -24,27 +24,27 @@ const MySkills = () => {
           </p>
           <LineGradient width="w-1/3" />
           <p className="mt-10 mb-7">
-            Aliquam, amet dui feugiat facilisi dui. Aliquam aliquet integer ut
-            fames odio in at.
+          I have successfuly completed a full time front end development course with Boolean UK and learned to code in React, JavaScript, Typescript, HTML and CSS. Currently Learning Tailwind.
           </p>
         </motion.div>
 
-        <div className="mt-16 md:mt-0">
+        {/* <div className="mt-16 md:mt-0">
           {isAboveLarge ? (
             <div
               className="relative z-0 ml-20 before:absolute before:-top-10 before:-left-10
               before:w-full before:h-full before:border-2 before:border-blue before:z-[-1]"
             >
-              <img
+              {/* <img
                 alt="skills"
                 className="z-10"
                 src="assets/skills-image.png"
-              />
-            </div>
+              /> */}
+            {/* </div>
           ) : (
             <img alt="skills" className="z-10" src="assets/skills-image.png" />
           )}
         </div>
+         */} 
       </div>
 
       {/* SKILLS */}
@@ -61,21 +61,11 @@ const MySkills = () => {
             visible: { opacity: 1, y: 0 },
           }}
         >
-          <div className="relative h-32">
-            <div className="z-10">
-              <p className="font-playfair font-semibold text-5xl">01</p>
-              <p className="font-playfair font-semibold text-3xl mt-3">
-                Experience
-              </p>
-            </div>
-            <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]" />
+          <div className=" h-32">
+            <p className="font-playfair font-semibold text-5xl mt-3">React</p>
           </div>
-          <p className="mt-5">
-            cool
-          </p>
         </motion.div>
 
-        {/* INNOVATIVE */}
         <motion.div
           className="md:w-1/3 mt-10"
           initial="hidden"
@@ -87,20 +77,13 @@ const MySkills = () => {
             visible: { opacity: 1, y: 0 },
           }}
         >
-          <div className="relative h-32">
-            <div className="z-10">
-              <p className="font-playfair font-semibold text-5xl">02</p>
-              <p className="font-playfair font-semibold text-3xl mt-3">
-                Innovative
-              </p>
-            </div>
-            <div className="w-1/2 md:w-3/4 h-32 bg-red absolute right-0 top-0 z-[-1]" />
+          <div className="h-32">
+            <p className="font-playfair font-semibold text-5xl mt-3">
+              Tailwind
+            </p>
           </div>
-          <p className="mt-5">
-            Something very cool will be here
-          </p>
         </motion.div>
-        {/* IMAGINATIVE */}
+
         <motion.div
           className="md:w-1/3 mt-10"
           initial="hidden"
@@ -112,18 +95,11 @@ const MySkills = () => {
             visible: { opacity: 1, y: 0 },
           }}
         >
-          <div className="relative h-32">
-            <div className="z-10">
-              <p className="font-playfair font-semibold text-5xl">03</p>
-              <p className="font-playfair font-semibold text-3xl mt-3">
-                Imaginative
-              </p>
-            </div>
-            <div className="w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1]" />
+          <div className="relative">
+            <p className="font-playfair font-semibold text-5xl mt-3">
+              Typescript
+            </p>
           </div>
-          <p className="mt-5">
-            Something very cool will be here.
-          </p>
         </motion.div>
       </div>
     </section>

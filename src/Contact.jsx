@@ -3,12 +3,15 @@ import LineGradient from "./LineGradient";
 import SocialMediaIcons from "./SocialMediaIcons";
 const Contact = () => {
     return (
-        <div>
+        <section id="contact" className="contact py-48">
         <p className="font-playfair font-semibold text-4xl text-yellow">
-          ONTACT ME
+          CONTACT ME
         </p>
-        <div className="flex md:justify-end my-5">
-          <LineGradient width="w-1/2" />
+        <LineGradient width="w-1/2" />
+        <p className="font-playfair font-semibold text-3xl mt-10 mb-10" >Mobile: +4478 77948 788</p>
+        <p className="font-playfair font-semibold text-2xl mt-10 mb-10">Email:  olha.d@yahoo.com</p>
+        <div className="flex md: my-5">
+          
         </div>
         <motion.div
           className="flex mt-5 justify-center md:justify-start"
@@ -21,9 +24,11 @@ const Contact = () => {
             visible: { opacity: 1, x: 0 },
           }}
         >
-          <SocialMediaIcons />
+    
+         <div className="bg-white h-20"><SocialMediaIcons /></div>
+          
         </motion.div>
-      </div>
+      </section>
       
     )
 }
