@@ -54,7 +54,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
         >
             <img
               alt="menu-icon"
-              src="../assets/menu-icon.svg"
+              src="assets/menu-icon.svg"
             />
           </button>
         )}

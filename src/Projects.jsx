@@ -94,7 +94,7 @@ const projectVariant = {
         
     
           </div>
-          <img src={`./assets/third.png`} alt='mytodo' />
+         <a href="https://olhadorofiychuk.github.io/typescript_todo/"><img src={`./assets/third.png`} alt='mytodo' /></a> 
         </motion.div>
         <div/>
 
