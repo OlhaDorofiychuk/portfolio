@@ -106,7 +106,7 @@ const projectVariant = {
         
     
           </div>
-          <img src={`./assets/sixth.png`} alt='weather2' height={256}/>
+          <img src={`./assets/sixth.png`} alt='weather2' height='256'/>
         </motion.div>
         </motion.div>
       </div>
