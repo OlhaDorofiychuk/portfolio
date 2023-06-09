@@ -22,7 +22,7 @@ const MySkills = () => {
           <p className="font-playfair font-semibold text-4xl mb-5">
             MY <span className="text-red">SKILLS</span>
           </p>
-          <LineGradient width="w-1/3" />
+          <LineGradient width="w-1/2" />
           <p className="mt-10 mb-7">
           I have successfuly completed a full time front end development course with Boolean UK and learned to code in React, JavaScript, Typescript, HTML and CSS. Currently Learning Tailwind.
           </p>
