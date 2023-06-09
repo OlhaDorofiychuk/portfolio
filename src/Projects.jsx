@@ -111,7 +111,7 @@ const projectVariant = {
         
     
           </div>
-          <img src={`./assets/fifth.png`} alt='weather1' />
+          <a href="https://olhadorofiychuk.github.io/weather-app/"> <img src={`./assets/fifth.png`} alt='weather1' /> </a>
         </motion.div>
 
         <motion.div variants={projectVariant} className="relative">
