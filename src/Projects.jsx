@@ -63,13 +63,13 @@ const projectVariant = {
             A simple yet aesthetically pleasing app to search and display movies by using TMDB API. User can search movies by name orgenre and change color scheme from neutral grey to bright blue gradient.
           </div>
           <motion.div variants={projectVariant} className="relative">
-          <div className="absolute h-full w-full opacity-0 hover:opacity-10 transition duration-500
+          {/* <div className="absolute h-full w-full opacity-0 hover:opacity-10 transition duration-500
           bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue;
       ">
         
     
-          </div>
-          <img src={`./assets/first.png`} alt='first' />
+          </div> */}
+         <a href="https://olhadorofiychuk.github.io/"> <img src={`./assets/first.png`} alt='first' /></a>
         </motion.div>
         <motion.div variants={projectVariant} className="relative">
           <div className="absolute h-full w-full opacity-0 hover:opacity-10 transition duration-500
