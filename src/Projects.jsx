@@ -88,12 +88,12 @@ const projectVariant = {
             This quick project helped me to understand and use React together with Typescript. I have used React beautitiful DND library in order to implement drag and drop functionality.
           </div>
           <motion.div variants={projectVariant} className="relative">
-          <div className="absolute h-full w-full opacity-0 hover:opacity-10 transition duration-500
+          {/* <div className="absolute h-full w-full opacity-0 hover:opacity-10 transition duration-500
           bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue;
       ">
         
     
-          </div>
+          </div> */}
          <a href="https://olhadorofiychuk.github.io/typescript_todo/"><img src={`./assets/third.png`} alt='mytodo' /></a> 
         </motion.div>
         <div/>
@@ -105,12 +105,12 @@ const projectVariant = {
             This project has been built using React REST API for the weather and location. Implemented vertical drop down with Accordion for a 7 days forecast.
           </div>
           <motion.div variants={projectVariant} className="relative">
-          <div className="absolute h-full w-full opacity-0 hover:opacity-10 transition duration-500
+          {/* <div className="absolute h-full w-full opacity-0 hover:opacity-10 transition duration-500
           bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue;
       ">
         
     
-          </div>
+          </div> */}
           <a href="https://olhadorofiychuk.github.io/weather-app/"> <img src={`./assets/fifth.png`} alt='weather1' /> </a>
         </motion.div>
 
